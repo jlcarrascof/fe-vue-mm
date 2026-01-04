@@ -23,12 +23,12 @@
 
         incrementBtn.onclick = () => {
             count ++;
-            console.log(count);
+            countDiv.childNodes[0].textContent = `Count is: ${ count }`;
         }
 
         decrementBtn.onclick = () => {
             count --;
-            console.log(count);
+            countDiv.childNodes[0].textContent = `Count is: ${ count }`;
         }        
 
     </script>
