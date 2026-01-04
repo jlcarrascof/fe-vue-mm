@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
+    <div id="countDiv">
         Count is: 5
         <br />
         <button id="incrementBtn">Increment</button>
@@ -15,6 +15,9 @@
 
     <script>
         let count = 5;
+
+        const countDiv = document.getElementById('countDiv');
+
         const incrementBtn = document.getElementById('incrementBtn');
         const decrementBtn = document.getElementById('decrementBtn');
 
